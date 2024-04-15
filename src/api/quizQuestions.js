@@ -1,5 +1,6 @@
 var quizQuestions = [
     {
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "You fall into a puddle and a portal opens. A strange duck named Quill appears holding a gem and a banana. Which do you take?",
         answers: [
             {
@@ -30,7 +31,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Good choice. you follow Quill into the portal and see someone you had a falling out with. Do you…",
         answers: [
             {
@@ -61,7 +62,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Quill leads you to a cottage in an enchanted forest because he needs your help. You remember you have a final assignment due at midnight. What are you thinking?",
         answers: [
             {
@@ -92,7 +93,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Your assignment is almost done. Quill tells you he’s throwing a party, but there are only 45 minutes to decorate and bake a cake. He wants to bake a cake, but he leaves the room to take a call. You..",
         answers: [
             {
@@ -123,6 +124,7 @@ var quizQuestions = [
         ]
     },
     {
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Quill comes back sobbing and wordlessly begins baking. What are you thinking?",
         answers: [
             {
@@ -153,7 +155,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Quill tells you he was on the phone with his manager, Snoffie, and Snoffie wants to kill you…but don’t worry! Quill is going to help you escape. What are you thinking?",
         answers: [
             {
@@ -184,7 +186,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Knock, knock! It’s Snoffie, a big, purple 7ft tall monster. You lock eyes with Snoffie. What are you thinking?",
         answers: [
             {
@@ -215,6 +217,7 @@ var quizQuestions = [
         ]
     },
     {
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "You and Quill join forces to defeat Snoffie. Quill is overjoyed and asks to elope right now. You think to yourself…",
         answers: [
             {
@@ -245,7 +248,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg", 
         question: "Although Quill loves you, he changes his mind on marriage because he wants you to return home safely. Quill asks if you can do one last favor before you leave. You say…",
         answers: [
             {
@@ -276,7 +279,7 @@ var quizQuestions = [
         ]
     },
     {
-
+        image: "http://localhost:3000/static/media/quillted.a10fc5e36f7398f996491c881d768d7c.svg",
         question: "Quill realizes he doesn’t need you for the favor. Eventually, you find your way back to the portal entrance. You have one foot in and one foot out. You see Snoffie in the distance with a scary look on his face, what do you do?",
         answers: [
             {

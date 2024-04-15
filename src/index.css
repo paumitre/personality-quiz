@@ -17,8 +17,14 @@ code {
   box-sizing: border-box;
 }
 
+h2{
+  font-family: "dolly-new", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   color: #101428;
   background: #FFFCFF;
@@ -28,9 +34,8 @@ body {
 }
 
 
-
 .container {
-  position: relative;
+  position: top;
   max-width: 800px;
   margin: 0 auto;
   background: #FFFCFF;
@@ -42,25 +47,16 @@ body {
   display: flex;
 }
 .containercontainer{
-  /* max-width: 780px; */
   margin: 1%;
   display: flex;
   justify-content: center;
   padding: 2.5 rem auto;
-  /* max-width: 820px; */
-  /* position: relative; */
   border: 1px solid #ACB0E8;
-  /* margin: 2.5 rem auto; */
-  /* margin: 0 auto;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ACB0E8; */
 }
 
 @media (min-width: 769px) {
   .container {
-    margin: 2.5rem auto;
+    margin:  5.5rem auto;
   }
 }
 

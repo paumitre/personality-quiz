@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Question from '../components/Question';
 import QuestionCount from '../components/QuestionCount';
 import AnswerOption from '../components/AnswerOption';
+import Image from '../components/Image';
+import quillted from '../quillted.svg';
 
 function Quiz(props) {
   function renderAnswerOptions(key) {
@@ -26,7 +28,8 @@ function Quiz(props) {
           counter={props.questionId}
           total={props.questionTotal}
         />
-        <Question content={props.question} />
+        <Image image={props.image}/>
+        <Question content={props.question}/> 
         <ul className="answerOptions">
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>
@@ -37,6 +40,7 @@ function Quiz(props) {
 }
 
 Quiz.propTypes = {
+  image: PropTypes.string.isRequired,
   answer: PropTypes.string.isRequired,
   answerOptions: PropTypes.array.isRequired,
   counter: PropTypes.number.isRequired,
