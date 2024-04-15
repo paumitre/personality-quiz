@@ -51,7 +51,6 @@ class App extends Component {
   
     return array;
   };
-// hey 
 
 setUserAnswer(answer) {
   this.setState((state) => ({
