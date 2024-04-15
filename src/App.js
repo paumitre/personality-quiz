@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import quillted from './quillted.svg';
+// import icon from './icon-check.svg';
 import './App.css';
 import Question from './components/Question';
 import React, { Component } from 'react';
@@ -123,8 +125,7 @@ renderResult() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <img src={quillted} className="App-logo" alt="quillted" />
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
