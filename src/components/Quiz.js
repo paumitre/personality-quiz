@@ -20,6 +20,7 @@ function Quiz(props) {
   
   return (
     <div className='container'>
+    <div className='containercontainer'>
       <div className="quiz">
         <QuestionCount
           counter={props.questionId}
@@ -29,6 +30,7 @@ function Quiz(props) {
         <ul className="answerOptions">
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>
+      </div>
       </div>
       </div>
   );
