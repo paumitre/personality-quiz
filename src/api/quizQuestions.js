@@ -1,18 +1,31 @@
 var quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "You fall into a puddle and a portal opens. A strange duck named Quill appears holding a gem and a banana.\n Which do you take?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                type: "normie",
+                content: "Try to figure out what’s going on"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                type: "people pleaser",
+                content: "Try to figure out which one Quill wants me to take"
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                type: "procrastinator",
+                content: "I take whichever one is closer and figure out what’s going on later"
+ },
+            {
+                type: "unbothered",
+                content: "Why do I have to take something?"
+ },
+            {
+                type: "imposter syndrome",
+                content: "Why am I here? There are much better people for deciding this."
+ },
+            {
+                type: "perfectionist",
+                content: "The gem so I have something of value on me"
+
             }
         ]
     },
@@ -87,3 +100,4 @@ var quizQuestions = [
   ];
   
   export default quizQuestions;
+
