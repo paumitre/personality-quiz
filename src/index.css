@@ -78,10 +78,23 @@ body {
   font-size: 14px;
 }
 
-/* Question Component */
-.question {
+/* Question and Image section */
+.questionAndImage{
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+  display: inline-flex;
+}
+
+/* Image Component */
+.imageContainer{
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.image {
+  max-width: 100px;
+  margin: 0;
+  /* padding: 0.5rem 2.5rem 1.5rem 2.5rem; */
 }
 
 /* AnswerOption Component */

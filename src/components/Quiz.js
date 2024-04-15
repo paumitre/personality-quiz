@@ -28,8 +28,10 @@ function Quiz(props) {
           counter={props.questionId}
           total={props.questionTotal}
         />
+        <div className="questionAndImage">
         <Image image={props.image}/>
         <Question content={props.question}/> 
+        </div>
         <ul className="answerOptions">
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>

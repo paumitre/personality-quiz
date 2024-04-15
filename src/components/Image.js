@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 function Image(props) {
     return (
-        <div className="image">
-            <img src={props.image}/>
+        <div className="imageContainer">
+            <img className = "image" src={props.image}/>
         </div>
         
     );
